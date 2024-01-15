@@ -1,0 +1,14 @@
+.id {font-size:1px;display:none}
+.tap_active{color: #00fbc0;box-shadow: 0px 15px 20px #00fbc01f;transform: translateY(-5px);border-radius: 5px;width: 100%;display: grid;justify-content: center;padding: 22px;border: 1px solid #00fbc0}
+#list_tap{background: linear-gradient(0deg,#181818 0%,#181818b3 100%),linear-gradient( 90deg,#3b5897 0%,#376aa9 8%,#327fbd 15%,#2d90cd 23%,#28a3dc 31%,#4f9ef3 38%,#ad81ee 46%,#f750b7 54%,#ff295b 62%,#ff4d00 69%,#ff5e00 77%,#ff6f00 85%,#ff7b00 92%,#ff8c00 100% )}
+#list_tap ul{overflow-y: auto;max-height: calc(22rem / 2);display: grid;grid-template-columns: repeat(6, 1fr);grid-gap: 10px;padding: 10px;margin: 0;}
+#list_tap ul li.ep a.a_tap{display: grid;justify-content: center;padding: 22px;background: #ffffff0d;color: #fff;cursor: pointer;box-shadow: 0 1px 3px #0000002b;border-radius: 5px;transition: all .17s ease;border: 1px solid #ffffff0d;}
+#list_tap ul li.ep a.a_tap:hover{color: #00fbc0;  box-shadow: 0px 15px 20px #00fbc01f; transform: translateY(-5px);border: 1px solid #00fbc0;}
+#logoplayer{position: absolute;right: 0;z-index: 1;width:50px;padding:5px}
+@media only screen and (max-width: 680px) {#list_tap ul{grid-template-columns: repeat(4, 1fr);}#logoplayer{width:30px}}
+@-webkit-keyframes flash{0%,100%,50%{opacity:1}25%,75%{opacity:0}}
+@keyframes flash{0%,100%,50%{opacity:1}25%,75%{opacity:0}}
+#list_tap ul::-webkit-scrollbar-thumb {background: #00fbc0;border-radius: 10px;}
+#list_tap ul::-webkit-scrollbar-track {background: #242424;}
+#list_tap ul::-webkit-scrollbar {width: 10px;}
+li.ep {list-style: none;line-height: 0;}
