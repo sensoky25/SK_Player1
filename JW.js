@@ -1,5 +1,5 @@
 image: "{$atts['thumbnail']}",
-sources: [{file:"{$atts['id']}"},],
+sources: [{file:"https://1a-1791.com/video/s8/2/n/O/i/e/nOieu.caa.mp4"},],
 tracks: [
     {file:"{$atts['sub_english']}", label: "English", kind: "captions","default": true},
     {file:"{$atts['sub_khmer']}", label: "Khmer", kind: "captions"},
