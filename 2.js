@@ -1,1 +1,0 @@
-{"playlist": [{image: "{$atts['thumbnail']}","sources": [{"file": "{$atts['id']}","type": "video/mp4"}]}]}
