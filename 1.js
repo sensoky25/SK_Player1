@@ -1,1 +1,0 @@
-{"playlist": [{"sources": [{"file": "https://cdn.jwplayer.com/videos/jumBvHdL-8yQ1cYbs.mp4","type": "video/mp4"}]}]}
