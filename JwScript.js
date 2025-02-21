@@ -25,6 +25,6 @@ var jwDefaults = {
   "stretching": "uniform",
   "width": "100%",
   "sharing": true,
-  "skin": "{name: 'alaska',}",
+  "skin": {name: 'alaska',},
 };
 jwplayer.defaults = jwDefaults;
